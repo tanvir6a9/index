@@ -1,0 +1,439 @@
+body{
+    margin: 20px;
+}
+.header-dad{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.header{
+    display: flex;
+    width: 90%;
+    padding: 50px 20px;
+    
+}
+.header1{
+    display: flex;
+    width: 50%;
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.hero-travel{
+    display: flex;
+    font-size: large;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.primary-color{
+    color: rgb(253, 79, 4);
+}
+
+
+}
+             /* header-menu related style */
+.header-menu{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+   
+
+.menu-child{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    justify-content: space-between;
+    color: gray;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+@media screen and (max-width:600px){
+    .menu-child{
+        display: none;
+        
+    }
+}
+    
+}
+@media screen and (max-width:600px) {
+    .header1{
+        width: 100%;
+    }
+    
+}
+                           /* banner picture */
+                             /* banner part */
+.gradient-overlay {
+  position: relative;
+  width: 100%;
+  border-radius: 16px;
+  height:500px; /* Adjust the height as needed */
+  background: url(Images/main.png) center/cover no-repeat; /* Set your image */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.content h1{
+    color: #FFF;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+
+               /* banner button */
+.buttion-items{
+display: flex;
+padding: 5px;
+display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}     
+.buttons {
+width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+border: none;
+text-align: center;
+}
+.buttons-4 {
+width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgb(253, 79, 4);
+
+border: none;
+
+
+}
+@media screen and (max-width:600px){
+.buttion-items{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+}
+
+@media screen and (max-width:600px){
+.content h1{
+    color: #FFF;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+font-style: normal;
+/* font-weight: 800; */
+line-height: normal;
+}
+}  
+                     /* 2n section */
+
+.section-2nd{
+    display: flex;
+    width: 100%;
+   
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.Our-Popular{
+   
+  
+}
+.Our-Popular h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.read-more-2nd{
+    position: relative;
+   
+}
+@media screen and (max-width:600px) {
+
+.section-2nd{
+        display: flex;
+       flex-direction: column;
+}
+}
+
+                       /* Destination 2nd */
+.Destination2n{
+    text-align: center;
+    width: 100%;
+    padding-top:30px ;
+    padding-bottom:30px ;
+}  
+  .Destination2n h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }                  
+                       /* 4rt section */
+  
+    .hotel-service{
+        display: flex;
+        column-gap: 10px;
+       
+    }
+    .hotel{
+        padding: 30px;
+        border-radius: 15px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+
+background: rgba(251, 181, 99, 0.05);
+    }
+    
+    .service {
+        padding: 30px;
+        border-radius: 15px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+        background: rgba(41, 206, 246, 0.05);
+    }
+    @media screen and (max-width:600px) {
+
+        .hotel-service{
+        display: flex;
+        flex-direction: column;
+        column-gap: ;
+        }
+
+    }
+    .mapsection-dad{
+        display: flex;
+        padding-top: 15px;
+        justify-content: center;
+        justify-content: center;
+       
+        width: 100%;
+    }
+    .mapsection{
+        border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+
+background: rgba(233, 68, 68, 0.05);
+        padding-top: 150px;
+        border-radius: 15px;
+        padding: 15px;
+        width: 580px;
+       
+    }
+
+                                   /* 2nd-banner  */
+
+ .gradient-overlay1 {
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    border-radius: 16px;
+    height:500px; /* Adjust the height as needed */
+    background: url(Images/Group\ 39.png) center/cover no-repeat; /* Set your image */
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+  
+  }
+  
+  .content1 {
+
+    position: absolute;
+    right: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ece8e8;
+    text-align: center;
+  }
+  
+  
+  
+  
+                 /* banner button */
+  .buttion-items1{
+    width: 579px;
+height: 389px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+
+
+  }     
+  .buttion-items1 h1{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .buttion-items1 p{
+    color: rgba(255, 255, 255, 0.30);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .buttons-4 {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgb(253, 79, 4);
+  
+  border: none;
+ 
+  
+  }
+  #tanvir420{
+    color: rgb(253, 79, 4);
+  }
+  @media screen and (max-width:600px){
+    .content1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+                 /* subscribe */
+ .sub-container{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+   
+    flex-direction: row;
+    justify-content: center;
+ }        
+ .input-container{
+    width: 50%;
+   
+    background: #FFF;
+ }  
+ .input-container h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }  
+ .container-button{
+    display: flex;
+    flex-direction: column;
+   
+ }    
+ .container-yor-name{
+    border: none;
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+ }
+ .container-email{ 
+    border: none;
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+ }
+ .container-subscribe{
+    
+
+    font-size: larger;
+    text-align: center;
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background:  rgb(253, 79, 4);
+border: none;
+
+
+
+ }
+
+ @media screen and (max-width:600px) {
+.sub-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+ }
+                 /* footer */
+
+.footter-main{
+    width: 100%;
+height: 502px;
+flex-shrink: 0;
+background: rgba(19, 19, 24, 0.05);
+
+}
+.foottertravel{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+   
+}
+.footter-img{
+    display: flex;
+   
+
+}
+.footter-titel{
+    display: flex;
+  
+
+}
+.futter-last-descri{
+    text-align: center;
+    width: 100%
+}
+.img-travel{
+    display: flex;
+
+}
+.socialmedi{
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+   .footter-main{
+    width: 100%;
+height: 502px;
+flex-shrink: 0;
+background: rgba(19, 19, 24, 0.05); 
+    
+}}
+
